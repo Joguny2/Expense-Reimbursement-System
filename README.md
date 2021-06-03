@@ -1,33 +1,39 @@
 # Expense-Reimbursement-System
 
-# BidderUp
-
 ## Overview
-- BidderUp is an international consumer-to-consumer online bidding marketplace. 
-Consumers across the world can connect through the web application to place bids on other users’ items. 
-Users can browse for items, make offers on other users’ items, and review the previous bids they have made; 
-likewise, users can also review bids made on their items by other users. This platform caters to users who want to acquire goods both locally and abroad.
+The Expense Reimbursement System (ERS) will manage the process of reimbursing employees for expenses incurred while on company time. All employees in the company can login and submit requests for reimbursement and view their past tickets and pending requests. Finance managers can log in and view all reimbursement requests and past history for all employees in the company. Finance managers are authorized to approve and deny requests for expense reimbursement
 
 ## Tools and Technologies
-- Spring Boot
-- Spring Data
-- Spring MVC
+- Java 8
+- Javalin Framework
 - Gradle
 - MongoDB
-- React
+- ReactJS
 - Git 
 - Log4J
 - JUnit
 
 ## Features
-- Users can login
-- Users can signup using their email and their country
-- Users can browse for items that are placed for sale
-- Users can bid for items that are placed for sale
-- Users can place an item for sale
-- Users can review all offers on all items placed for sale
-- Users can update their information
-- Users can see prices reflected to their respective currency 
+-An Employee can login
+-An Employee can view the Employee Homepage
+-An Employee can logout
+-An Employee can submit a reimbursement request
+-An Employee can view their pending reimbursement requests
+-An Employee can view their resolved reimbursement requests
+-An Employee can view their information
+-An Employee can update their information
+-An Employee receives an email when one of their reimbursement requests is resolved
+
+-A Manager can login
+-A Manager can view the Manager Homepage
+-A Manager can logout
+-A Manager can approve/deny pending reimbursement requests
+-A Manager can view all pending requests from all employees
+-A Manager can view all resolved requests from all employees and see which manager resolved it
+-A Manager can view all Employees
+-A Manager can view reimbursement requests from a single Employee
+-A Manager can register an Employee, which sends the Employee an email with their username and temp password 
+
 
 ## Getting Started
 
