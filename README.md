@@ -40,6 +40,7 @@ The Expense Reimbursement System (ERS) will manage the process of reimbursing em
 To get this application setup:
 1. Must have nodejs install.
 2. Must have Java 8 runtime environment installed.
+3. Must have MongoDB installed.
 
 If the requirements are met, go ahead and clone the repo by using the following command:
 ```git clone https://github.com/Joguny2/Expense-Reimbursement-System```
@@ -54,4 +55,4 @@ The functionalities of the frontend will not work if http://localhost:3000/ is n
 ## To run the backend
 ```gradle clean```
 ```gralde build```
-Run the main method in Project2Application
+Run the main method in ERSWebApplication.java
