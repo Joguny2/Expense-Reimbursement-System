@@ -41,8 +41,8 @@ To get this application setup:
 1. Must have nodejs install.
 2. Must have Java 8 runtime environment installed.
 
-If the requirements are met, go ahead and clone the repo by using the command below:
-```https://github.com/Project-Adam-Johnson-David/Project2```
+If the requirements are met, go ahead and clone the repo by using the following command:
+```git clone https://github.com/Joguny2/Expense-Reimbursement-System```
 
 Once the repository is cloned you will need to make sure the localhost:8080 and mongodb is running.
 The functionalities of the frontend will not work if http://localhost:3000/ is not running. THe backend is running at port 8080.
@@ -55,8 +55,3 @@ The functionalities of the frontend will not work if http://localhost:3000/ is n
 ```gradle clean```
 ```gralde build```
 Run the main method in Project2Application
-
-## Contributors
-- Adam Bosch
-- Johnson Ogunyomi
-- David Jasuan
